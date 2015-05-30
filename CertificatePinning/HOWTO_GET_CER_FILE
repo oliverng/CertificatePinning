@@ -1,0 +1,5 @@
+If you need to get the public certificate for your SSL enabled site, just enter the command below
+in terminal, replacing the url and port with your own domain
+
+openssl s_client -showcerts -connect securitycompass.com:443 </dev/null 2>/dev/null|openssl x509 -outform DER
+

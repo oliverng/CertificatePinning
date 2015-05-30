@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D4EA325C1B19B30E00D6D6A1 /* HOWTO_GET_CER_FILE in Resources */ = {isa = PBXBuildFile; fileRef = D4EA325B1B19B30E00D6D6A1 /* HOWTO_GET_CER_FILE */; };
 		D4FB0C061B19940A002E4A58 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D4FB0C051B19940A002E4A58 /* main.m */; };
 		D4FB0C091B19940A002E4A58 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D4FB0C081B19940A002E4A58 /* AppDelegate.m */; };
 		D4FB0C0C1B19940A002E4A58 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D4FB0C0B1B19940A002E4A58 /* ViewController.m */; };
@@ -29,6 +30,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D4EA325B1B19B30E00D6D6A1 /* HOWTO_GET_CER_FILE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = HOWTO_GET_CER_FILE; sourceTree = "<group>"; };
 		D4FB0C001B19940A002E4A58 /* CertificatePinning.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CertificatePinning.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4FB0C041B19940A002E4A58 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D4FB0C051B19940A002E4A58 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -104,6 +106,7 @@
 				D4FB0C341B199EF8002E4A58 /* SC.cer */,
 				D4FB0C041B19940A002E4A58 /* Info.plist */,
 				D4FB0C051B19940A002E4A58 /* main.m */,
+				D4EA325B1B19B30E00D6D6A1 /* HOWTO_GET_CER_FILE */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -208,6 +211,7 @@
 				D4FB0C351B199EF8002E4A58 /* SC.cer in Resources */,
 				D4FB0C0F1B19940A002E4A58 /* Main.storyboard in Resources */,
 				D4FB0C141B19940A002E4A58 /* LaunchScreen.xib in Resources */,
+				D4EA325C1B19B30E00D6D6A1 /* HOWTO_GET_CER_FILE in Resources */,
 				D4FB0C111B19940A002E4A58 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -424,6 +428,7 @@
 				D4FB0C251B19940A002E4A58 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D4FB0C261B19940A002E4A58 /* Build configuration list for PBXNativeTarget "CertificatePinningTests" */ = {
 			isa = XCConfigurationList;
@@ -432,6 +437,7 @@
 				D4FB0C281B19940A002E4A58 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
