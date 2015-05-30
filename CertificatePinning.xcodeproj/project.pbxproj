@@ -14,6 +14,8 @@
 		D4FB0C111B19940A002E4A58 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D4FB0C101B19940A002E4A58 /* Images.xcassets */; };
 		D4FB0C141B19940A002E4A58 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D4FB0C121B19940A002E4A58 /* LaunchScreen.xib */; };
 		D4FB0C201B19940A002E4A58 /* CertificatePinningTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D4FB0C1F1B19940A002E4A58 /* CertificatePinningTests.m */; };
+		D4FB0C331B1997F8002E4A58 /* ConnectionPinning.m in Sources */ = {isa = PBXBuildFile; fileRef = D4FB0C321B1997F8002E4A58 /* ConnectionPinning.m */; };
+		D4FB0C351B199EF8002E4A58 /* SC.cer in Resources */ = {isa = PBXBuildFile; fileRef = D4FB0C341B199EF8002E4A58 /* SC.cer */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,8 @@
 		D4FB0C191B19940A002E4A58 /* CertificatePinningTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CertificatePinningTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4FB0C1E1B19940A002E4A58 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D4FB0C1F1B19940A002E4A58 /* CertificatePinningTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CertificatePinningTests.m; sourceTree = "<group>"; };
+		D4FB0C321B1997F8002E4A58 /* ConnectionPinning.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConnectionPinning.m; sourceTree = "<group>"; };
+		D4FB0C341B199EF8002E4A58 /* SC.cer */ = {isa = PBXFileReference; lastKnownFileType = file; path = SC.cer; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +93,7 @@
 				D4FB0C101B19940A002E4A58 /* Images.xcassets */,
 				D4FB0C121B19940A002E4A58 /* LaunchScreen.xib */,
 				D4FB0C031B19940A002E4A58 /* Supporting Files */,
+				D4FB0C321B1997F8002E4A58 /* ConnectionPinning.m */,
 			);
 			path = CertificatePinning;
 			sourceTree = "<group>";
@@ -96,6 +101,7 @@
 		D4FB0C031B19940A002E4A58 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				D4FB0C341B199EF8002E4A58 /* SC.cer */,
 				D4FB0C041B19940A002E4A58 /* Info.plist */,
 				D4FB0C051B19940A002E4A58 /* main.m */,
 			);
@@ -199,6 +205,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D4FB0C351B199EF8002E4A58 /* SC.cer in Resources */,
 				D4FB0C0F1B19940A002E4A58 /* Main.storyboard in Resources */,
 				D4FB0C141B19940A002E4A58 /* LaunchScreen.xib in Resources */,
 				D4FB0C111B19940A002E4A58 /* Images.xcassets in Resources */,
@@ -220,6 +227,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D4FB0C0C1B19940A002E4A58 /* ViewController.m in Sources */,
+				D4FB0C331B1997F8002E4A58 /* ConnectionPinning.m in Sources */,
 				D4FB0C091B19940A002E4A58 /* AppDelegate.m in Sources */,
 				D4FB0C061B19940A002E4A58 /* main.m in Sources */,
 			);
