@@ -3,7 +3,7 @@
 //  CertificatePinning
 //
 //  Created by Oliver Ng on 30/5/15.
-//  Copyright (c) 2015 Oliver Ng @ Security Compass. All rights reserved.
+//  Copyright (c) 2015 Security Compass. All rights reserved.
 //  http://www.securitycompass.com
 //
 
